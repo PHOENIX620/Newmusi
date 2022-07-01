@@ -170,24 +170,14 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                            text="💝 Owner 💝",
-                            url=f"https://t.me/{master_user}"),
+                    
+                   InlineKeyboardButton(
+                            text="• ᴄʜᴀɴɴᴇʟ •",
+                            url=f"https://t.me/Broken_Heart_72"),
                             
                     InlineKeyboardButton(
-                            text="👨‍💻 Assistant",
-                            url=f"https://t.me/{bot_username}")
-               ],
-                [
-                    InlineKeyboardButton(
-                            text="Support",
-                            url=f"https://t.me/Official_K_LegendBot")
-               ],
-               [
-                        InlineKeyboardButton(
-                            text="🔰 Help 🔰",
-                            url=f"https://t.me/Legend_K_Userbot")
-                   
+                            text="• sᴜᴘᴘᴏʀᴛ •",
+                            url=f"https://t.me/HEPPYLIFI")
                 ]
             ]
         )
@@ -223,24 +213,14 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                            text="💝 Owner 💝",
-                            url=f"https://t.me/{master_user}"),
+                    
+                   InlineKeyboardButton(
+                            text="• ᴄʜᴀɴɴᴇʟ •",
+                            url=f"https://t.me/Broken_Heart_72"),
                             
                     InlineKeyboardButton(
-                            text="👨‍💻 Assistant",
-                            url=f"https://t.me/{bot_username}")
-               ],
-                [
-                    InlineKeyboardButton(
-                            text="Support",
-                            url=f"https://t.me/Official_K_LegendBot")
-               ],
-               [
-                        InlineKeyboardButton(
-                            text="🔰 Help 🔰",
-                            url=f"https://t.me/Legend_K_Userbot")
-                   
+                            text="• sᴜᴘᴘᴏʀᴛ •",
+                            url=f"https://t.me/HEPPYLIFI")
                 ]
             ]
         )
@@ -253,24 +233,14 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                            text="💝 Owner 💝",
-                            url=f"https://t.me/{master_user}"),
+                    
+                   InlineKeyboardButton(
+                            text="• ᴄʜᴀɴɴᴇʟ •",
+                            url=f"https://t.me/Broken_Heart_72"),
                             
                     InlineKeyboardButton(
-                            text="👨‍💻 Assistant",
-                            url=f"https://t.me/{bot_username}")
-               ],
-                [
-                    InlineKeyboardButton(
-                            text="• sᴜᴩᴩᴏʀᴛ •",
-                            url=f"https://t.me/Official_K_LegendBot")
-               ],
-               [
-                        InlineKeyboardButton(
-                            text="🔰 Help 🔰",
-                            url=f"https://t.me/Legend_K_Userbot")
-                   
+                            text="• sᴜᴘᴘᴏʀᴛ •",
+                            url=f"https://t.me/HEPPYLIFI")
                 ]
             ]
         )
@@ -322,24 +292,13 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="💝 Owner 💝",
-                            url=f"https://t.me/{master_user}"),
+                            text="• ᴄʜᴀɴɴᴇʟ •",
+                            url=f"https://t.me/Broken_Heart_72"),
                             
                     InlineKeyboardButton(
-                            text="👨‍💻 Assistant",
-                            url=f"https://t.me/{bot_username}")
-               ],
-                [
-                    InlineKeyboardButton(
-                            text="Support",
-                            url=f"https://t.me/Official_K_LegendBot")
-               ],
-               [
-                        InlineKeyboardButton(
-                            text="🔰 Help 🔰",
-                            url=f"https://t.me/Legend_K_Userbot")
-                   
-                ]
+                            text="• sᴜᴘᴘᴏʀᴛ •",
+                            url=f"https://t.me/HEPPYLIFI")
+               ]
             ]
         )
 
