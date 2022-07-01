@@ -13,8 +13,8 @@ if "@" in master_user:
 
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"https://telegra.ph/file/c70635cc28eec97a43f40.jpg",
+    await message.reply_video(
+        video=f"https://te.legra.ph/file/b4cf9fec53289e0957cdb.mp4",
         caption=f"""**ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴀʙᴏᴜᴛ ᴍᴇ ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/OFFICIALHACKERERA)**""",
     reply_markup=InlineKeyboardMarkup(
             [
@@ -37,14 +37,14 @@ async def start_(client: Client, message: Message):
 
 @Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"https://telegra.ph/file/11a149401351a322dc1bc.jpg",
-        caption=f"""""",
+    await message.reply_video(
+        video=f"https://te.legra.ph/file/b4cf9fec53289e0957cdb.mp4",
+        caption=f"""**ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴀʙᴏᴜᴛ ᴍᴇ ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/OFFICIALHACKERERA)**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 Repo 💞", url=f"https://github.com/LEGENDARY-OS/MUSIC-BOT")
+                        "Repo", url=f"https://github.com/LEGENDARY-OS/MUSIC-BOT")
                 ]
             ]
         ),
