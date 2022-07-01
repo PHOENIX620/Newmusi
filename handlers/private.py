@@ -24,13 +24,13 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "• ᴄʜᴀɴɴᴇʟ •", url=f"https://t.me/Broken_Heart_72")
-               ],
-                [
+                            text="• ᴄʜᴀɴɴᴇʟ •",
+                            url=f"https://t.me/Broken_Heart_72"),
+                            
                     InlineKeyboardButton(
-                        "• sᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/HEPPYLIFI")
+                            text="• sᴜᴘᴘᴏʀᴛ •",
+                            url=f"https://t.me/HEPPYLIFI")
                ]
-                
            ]
        ),
     )
@@ -48,7 +48,12 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Repo", url=f"https://github.com/LEGENDARY-OS/MUSIC-BOT")
+                            text="• ᴄʜᴀɴɴᴇʟ •",
+                            url=f"https://t.me/Broken_Heart_72"),
+                            
+                    InlineKeyboardButton(
+                            text="• sᴜᴘᴘᴏʀᴛ •",
+                            url=f"https://t.me/HEPPYLIFI")
                 ]
             ]
         ),
