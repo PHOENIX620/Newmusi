@@ -20,24 +20,20 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "♥️ Owner ♥️", url=f"https://t.me/{master_user}")
+                        "• ᴄʜᴀɴɴᴇʟ •", url=f"https://t.me/Broken_Heart_72")
                ],
                 [
                     InlineKeyboardButton(
-                        "Repo ✨", url=f"https://github.com/LEGENDARY-OS/MUSIC-BOT")
-               ], 
-                [
-                    InlineKeyboardButton(
-                        "👨‍💻 Support", url=f"https://t.me/LegendBot_AI")
-               ],
-                [
-                    InlineKeyboardButton(
-                        "💝 Help 💝", url=f"https://t.me/LegendBot_OP")
-                ]
+                        "• sᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/HEPPYLIFI")
+               ]
                 
            ]
        ),
     )
+
+
+
+
 
 @Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
