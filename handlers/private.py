@@ -17,7 +17,7 @@ async def start_(client: Client, message: Message):
         video=f"https://te.legra.ph/file/b4cf9fec53289e0957cdb.mp4",
         caption=f"""**ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴀʙᴏᴜᴛ ᴍᴇ ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/OFFICIALHACKERERA)
 
-[ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ](https://t.me/{PLUS_MUSIC_BOT}?startgroup=true)
+[ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ](t.me/PLUS_MUSIC_BOT?startgroup=new)
 
 **""",
     reply_markup=InlineKeyboardMarkup(
