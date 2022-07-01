@@ -39,7 +39,7 @@ async def start_(client: Client, message: Message):
 
 
 
-@Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["alive"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_video(
         video=f"https://te.legra.ph/file/b4cf9fec53289e0957cdb.mp4",
