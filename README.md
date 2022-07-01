@@ -1,9 +1,3 @@
-## MUSIC 
-
-### Best Smart Voice Chat Music R4bot For Telegram Groups ...
-
-
-<p align="center"><a href="https://t.me/DhrubaXD"><img src="https://telegra.ph/file/8c3abf591121615cdef42.jpg"></a></p>
 
 
 # ʜᴇʀoᴋᴜ ᴅᴇᴘʟᴏʏ
@@ -15,12 +9,5 @@
 
 [![Deploy+To+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/LEGENDARY-OS/MUSIC-BOT&envs=SESSION_NAME,BOT_TOKEN,BOT_NAME,API_ID,API_HASH,SUDO_USERS,DURATION_LIMIT,MASTER_USERNAME)
 
-- I recomand you to use railway deploy....
-- Its easily deployable to railway
-- regards @DhrubaXD
 
-
-ꜱᴛʀɪɴɢ ɴᴀᴍᴇ:
-
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-brown)](https://replit.com/@HEXOROP/eSportMusic)
 
