@@ -107,7 +107,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("**𝐅𝐢𝐧𝐝𝐢𝐧𝐠𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 **")
+    lel = await message.reply("**𝐅𝐢𝐧𝐝𝐢𝐧𝐠 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -127,24 +127,24 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>» ꜰɪʀsᴛʟʏ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ</b>")
+                        "<b>» ꜰɪʀsᴛʟʏ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ </b>")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "**» ᴀssɪsᴛᴀɴᴛ sᴜᴄᴄᴇssꜰᴜʟʏ ᴊᴏɪɴᴇᴅ ᴛʜᴇ ᴄʜᴀᴛ ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ sᴏɴɢs**")
-              
-                    except UserAlreadyParticipant:
+                        message.chat.id, "**» ᴀssɪsᴛᴀɴᴛ sᴜᴄᴄᴇssꜰᴜʟʏ ᴊᴏɪɴᴇᴅ ᴛʜᴇ ᴄʜᴀᴛ ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ sᴏɴɢs​**")
+
+                except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>𝐅𝐥𝐨𝐨𝐝 𝐖𝐚𝐢𝐭 𝐄𝐫𝐫𝐨𝐫</b>\n𝐇𝐞𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 𝐂𝐨𝐮𝐥𝐝𝐧'𝐭 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩  𝐃𝐮𝐞 𝐓𝐨 𝐇𝐞𝐚𝐯𝐲 𝐉𝐨𝐢𝐧 𝐑𝐞𝐐𝐮𝐞𝐬𝐭 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐁𝐨𝐭 𝐈𝐬 𝐍𝐨𝐭 𝐁𝐚𝐧𝐧𝐞𝐝 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 𝐋𝐚𝐭𝐞𝐫 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :-  [OFFICIALHACKERERA ](https://t.me/OFFICIALHACKERERA) ")
+                        f"<b>𝐅𝐥𝐨𝐨𝐝  𝐖𝐚𝐢𝐭 𝐄𝐫𝐫𝐨𝐫 </b>\n𝐇𝐞𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭  𝐔𝐬𝐞𝐫𝐁𝐨𝐭 𝐂𝐨𝐮𝐥𝐝𝐧'𝐭 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫  𝐆𝐫𝐨𝐮𝐩  𝐃𝐮𝐞 𝐓𝐨 𝐇𝐞𝐚𝐯𝐲 𝐉𝐨𝐢𝐧 𝐑𝐞𝐐𝐮𝐞𝐬𝐭  𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐁𝐨𝐭 𝐈𝐬 𝐍𝐨𝐭 𝐁𝐚𝐧𝐧𝐞𝐝  𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 𝐋𝐚𝐭𝐞𝐫 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 : [OFFICIALHACKERERA](https://t.me/OFFICIALHACKERERA) ❤️ ) ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>Hey {user.first_name}, » ᴀssɪsᴛᴀɴᴛ ɪs ɴᴏᴛ ɪɴ ᴛʜɪs ᴄʜᴀᴛ sᴇɴᴅ /play ғɪʀsᴛ ᴛɪᴍᴇ ᴛᴏ ᴏʀᴅᴇʀ ᴛʜᴇ ᴀssɪsᴛᴀɴᴛ ᴛᴏ ᴊᴏɪɴ ʏᴏᴜʀ ᴄʜᴀᴛ </i>")
+            f"<i>Hey {user.first_name}, ᴀssɪsᴛᴀɴᴛ ɪs ɴᴏᴛ ɪɴ ᴛʜɪs ᴄʜᴀᴛ sᴇɴᴅ /play ғɪʀsᴛ ᴛɪᴍᴇ ᴛᴏ ᴏʀᴅᴇʀ ᴛʜᴇ ᴀssɪsᴛᴀɴᴛ ᴛᴏ ᴊ​ᴏɪɴ ʏᴏᴜʀ ᴄʜᴀᴛ</i>")
         return
     
     audio = (
@@ -157,7 +157,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"**» sᴏʀʀʏ ᴛʀᴀᴄᴋ ʟᴏɴɢᴇʀ ᴛʜᴀɴ {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ**"
+                f"**» sᴏʀʀʏ ᴛʀᴀᴄᴋ ʟᴏɴɢᴇʀ ᴛʜᴀɴ  {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ**"
             )
 
         file_name = get_file_name(audio)
@@ -168,17 +168,16 @@ async def play(_, message: Message):
         views = "Locally added"
 
         keyboard = InlineKeyboardMarkup(
-            [
+           [
                 [
-                    
-                   InlineKeyboardButton(
+                    InlineKeyboardButton(
                             text="• ᴄʜᴀɴɴᴇʟ •",
                             url=f"https://t.me/Broken_Heart_72"),
                             
                     InlineKeyboardButton(
                             text="• sᴜᴘᴘᴏʀᴛ •",
                             url=f"https://t.me/HEPPYLIFI")
-                ]
+               ]
             ]
         )
 
@@ -211,17 +210,16 @@ async def play(_, message: Message):
                 secmul *= 60
 
             keyboard = InlineKeyboardMarkup(
-            [
+           [
                 [
-                    
-                   InlineKeyboardButton(
+                    InlineKeyboardButton(
                             text="• ᴄʜᴀɴɴᴇʟ •",
                             url=f"https://t.me/Broken_Heart_72"),
                             
                     InlineKeyboardButton(
                             text="• sᴜᴘᴘᴏʀᴛ •",
                             url=f"https://t.me/HEPPYLIFI")
-                ]
+               ]
             ]
         )
 
@@ -231,19 +229,18 @@ async def play(_, message: Message):
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
-            [
+             [
                 [
-                    
-                   InlineKeyboardButton(
+                    InlineKeyboardButton(
                             text="• ᴄʜᴀɴɴᴇʟ •",
                             url=f"https://t.me/Broken_Heart_72"),
                             
                     InlineKeyboardButton(
                             text="• sᴜᴘᴘᴏʀᴛ •",
                             url=f"https://t.me/HEPPYLIFI")
-                ]
-            ]
-        )
+               ]
+             ]
+          )
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
@@ -256,7 +253,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "» ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ sᴇᴀʀᴄʜ ʙᴀʙʏ"
+                "» ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ sᴇᴀʀᴄʜ️**"
             )
         await lel.edit("» ᴘʀᴏᴄᴇssɪɴɢ​... ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ")
         query = message.text.split(None, 1)[1]
@@ -283,13 +280,13 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**» ɴᴏᴛ ғᴏᴜɴᴅ, ᴛʀʏ sᴇᴀʀᴄʜɪɴɢ ᴡɪᴛʜ ᴛʜᴇ sᴏɴɢ ɴᴀᴍᴇ **"
+                "**» ɴᴏᴛ ғᴏᴜɴᴅ ᴛʀʏ sᴇᴀʀᴄʜɪɴɢ ᴡɪᴛʜ ᴛʜᴇ sᴏɴɢ ɴᴀᴍᴇ**"
             )
             print(str(e))
             return
 
         keyboard = InlineKeyboardMarkup(
-            [
+             [
                 [
                     InlineKeyboardButton(
                             text="• ᴄʜᴀɴɴᴇʟ •",
@@ -304,7 +301,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**» sᴏʀʀʏ ᴛʀᴀᴄᴋ ʟᴏɴɢᴇʀ ᴛʜᴀɴ {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ**"
+                f"**» sᴏʀʀʏ ᴛʀᴀᴄᴋ ʟᴏɴɢᴇʀ ᴛʜᴀɴ  {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ**"
             )
             return
         requested_by = message.from_user.first_name
