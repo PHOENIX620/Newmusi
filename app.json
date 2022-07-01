@@ -39,7 +39,7 @@
       "value": "OFFICIALHACKERERA"
     },
     "DURATION_LIMIT": {
-      "description": "Max audio duration limit for downloads (minutes) i suggest 20-30 min.",
+      "description": "Max audio duration limit for downloads (minutes)",
       "required": true,
       "value": "200"
     }
