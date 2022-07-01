@@ -357,9 +357,9 @@ async def play(_, message: Message):
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) in ACTV_CALLS:
         position = await queues.put(chat_id, file=file_path)
-        await message.reply_photo(
-            photo="final.png",
-            caption="****❰ 𝐌𝐮𝐬𝐢𝐜'𝐗 ❘ 😈 ❱ 𝐒𝐨𝐧𝐠 ❤️ 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 💫🤟** {}**".format(position),
+        await message.reply_video(
+            video="https://te.legra.ph/file/1f42a9c26878f50b7c249.mp4",
+            caption="****ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴀʙᴏᴜᴛ ᴍᴇ ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/OFFICIALHACKERERA)** {}**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -373,10 +373,10 @@ async def play(_, message: Message):
                 stream_type=StreamType().local_stream,
             )
 
-        await message.reply_photo(
-            photo="final.png",
+        await message.reply_video(
+            video="https://te.legra.ph/file/01c16217101476b521960.mp4",
             reply_markup=keyboard,
-            caption="**".format(
+            caption="**ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴀʙᴏᴜᴛ ᴍᴇ ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/OFFICIALHACKERERA)**".format(
         message.chat.title, results[i]['title'], results[i]['duration'], results[i]['views']
         ), )
 
