@@ -134,15 +134,12 @@ async def play(_, message: Message):
                     await USER.join_chat(invitelink)
                     await USER.send_message(
                         message.chat.id, "**» ᴀssɪsᴛᴀɴᴛ sᴜᴄᴄᴇssꜰᴜʟʏ ᴊᴏɪɴᴇᴅ ᴛʜᴇ ᴄʜᴀᴛ ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ sᴏɴɢs**")
-
-                except UserAlreadyParticipant:
-                    pass
-                except Exception:
+              
                     except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>❰𝐅𝐥𝐨𝐨𝐝 😒 𝐖𝐚𝐢𝐭 𝐄𝐫𝐫𝐨𝐫  😔❱</b>\n𝐇𝐞𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 ❤️ 𝐂𝐨𝐮𝐥𝐝𝐧'𝐭 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 💫 𝐆𝐫𝐨𝐮𝐩  𝐃𝐮𝐞 𝐓𝐨 𝐇𝐞𝐚𝐯𝐲 𝐉𝐨𝐢𝐧 𝐑𝐞𝐐𝐮𝐞𝐬𝐭 🥀 . 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐁𝐨𝐭 💫 𝐈𝐬 𝐍𝐨𝐭 𝐁𝐚𝐧𝐧𝐞𝐝 😔 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 🎸  𝐀𝐧𝐝 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 𝐋𝐚𝐭𝐞𝐫 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨ [❛-𝐌𝐫'Dhruba 🚬](https://t.me/DhrubaXD) ❤️🥀 :) ")
+                        f"<b>𝐅𝐥𝐨𝐨𝐝 𝐖𝐚𝐢𝐭 𝐄𝐫𝐫𝐨𝐫</b>\n𝐇𝐞𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 𝐂𝐨𝐮𝐥𝐝𝐧'𝐭 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩  𝐃𝐮𝐞 𝐓𝐨 𝐇𝐞𝐚𝐯𝐲 𝐉𝐨𝐢𝐧 𝐑𝐞𝐐𝐮𝐞𝐬𝐭 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐁𝐨𝐭 𝐈𝐬 𝐍𝐨𝐭 𝐁𝐚𝐧𝐧𝐞𝐝 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 𝐋𝐚𝐭𝐞𝐫 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :-  [OFFICIALHACKERERA ](https://t.me/OFFICIALHACKERERA) ")
     try:
         await USER.get_chat(chid)
     except:
