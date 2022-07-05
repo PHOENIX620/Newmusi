@@ -13,9 +13,20 @@ if "@" in master_user:
 
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
-    await message.reply_video(
-        video=f"https://te.legra.ph/file/b4cf9fec53289e0957cdb.mp4",
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/28146e281d006a2bb57bd.jpg",
         caption=f"""**ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴀʙᴏᴜᴛ ᴍᴇ ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/OFFICIALHACKERERA)
+
+✨ʙᴇsᴛ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ
+
+💫  ᴇᴀsʏ ᴅᴇᴘʟᴏʏ
+💫  ʙᴀsᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ
+💫  ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛs
+💫  ʙᴇᴡ ғᴇᴀᴛᴜʀᴇs
+💫  ᴍᴀᴅᴇ ʙʏ ᴍʀ ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ
+💫  ᴀʟᴡᴀʏs ᴡɪʟʟ ᴜᴘᴅᴀᴛᴇ
+💫  ʙᴇsᴛ ᴀɴᴅ sᴇᴄᴜʀᴇ
+💫  ғᴀsᴛ sᴍᴏᴏᴛʜ ᴀɴᴅ sᴛʏʟɪsʜ
 
 [ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ](t.me/PLUS_MUSIC_BOT?startgroup=new)
 
@@ -26,6 +37,10 @@ async def start_(client: Client, message: Message):
                     InlineKeyboardButton(
                             text="• ᴄʜᴀɴɴᴇʟ •",
                             url=f"https://t.me/Broken_Heart_72"),
+
+                            InlineKeyboardButton(
+                            text="• owner •",
+                            url=f"https://t.me/OFFICIALHACKERERA"),
                             
                     InlineKeyboardButton(
                             text="• sᴜᴘᴘᴏʀᴛ •",
