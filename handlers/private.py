@@ -15,13 +15,12 @@ if "@" in master_user:
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/28146e281d006a2bb57bd.jpg",
-        caption=f"""** 
-✨  ʙᴇsᴛ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ
+        caption=f"""**✨  ʙᴇsᴛ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ
 💫  ᴇᴀsʏ ᴅᴇᴘʟᴏʏ
 💫  ʙᴀsᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ
 💫  ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛs
 💫  ʙᴇᴡ ғᴇᴀᴛᴜʀᴇs
-💫  ᴍᴀᴅᴇ ʙʏ ᴍʀ:[ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)
+💫  ᴍᴀᴅᴇ ʙʏ [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)
 💫  ᴀʟᴡᴀʏs ᴡɪʟʟ ᴜᴘᴅᴀᴛᴇ
 💫  ʙᴇsᴛ ᴀɴᴅ sᴇᴄᴜʀᴇ
 💫  ғᴀsᴛ sᴍᴏᴏᴛʜ ᴀɴᴅ sᴛʏʟɪsʜ
