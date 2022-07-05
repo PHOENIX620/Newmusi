@@ -3,7 +3,7 @@
   "description": "Best Music bot to play songs in your Telegram's Group Voice Chat.",
   "keywords": ["music", "voicechat", "telegram"],
   "repository": "https://github.com/OFFICIALHACKERERA/PLUS-MUSIC-BOT",
-  "logo": "https://telegra.ph/file/28146e281d006a2bb57bd.jpg",
+  "logo": "https://telegra.ph/file/93d61e57574d31fc0c2fa.jpg",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
