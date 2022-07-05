@@ -38,7 +38,7 @@ async def start_(client: Client, message: Message):
                             url=f"https://t.me/Broken_Heart_72"),
 
                             InlineKeyboardButton(
-                            text="• owner •",
+                            text="• ᴏᴡɴᴇʀ •",
                             url=f"https://t.me/OFFICIALHACKERERA"),
                             
                     InlineKeyboardButton(
