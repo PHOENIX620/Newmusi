@@ -15,19 +15,18 @@ if "@" in master_user:
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/28146e281d006a2bb57bd.jpg",
-        caption=f"""**ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴀʙᴏᴜᴛ ᴍᴇ ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/OFFICIALHACKERERA)
-✨ʙᴇsᴛ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ
-
+        caption=f"""** 
+✨  ʙᴇsᴛ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ
 💫  ᴇᴀsʏ ᴅᴇᴘʟᴏʏ
 💫  ʙᴀsᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ
 💫  ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛs
 💫  ʙᴇᴡ ғᴇᴀᴛᴜʀᴇs
-💫  ᴍᴀᴅᴇ ʙʏ ᴍʀ ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ
+💫  ᴍᴀᴅᴇ ʙʏ ᴍʀ:[ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)
 💫  ᴀʟᴡᴀʏs ᴡɪʟʟ ᴜᴘᴅᴀᴛᴇ
 💫  ʙᴇsᴛ ᴀɴᴅ sᴇᴄᴜʀᴇ
 💫  ғᴀsᴛ sᴍᴏᴏᴛʜ ᴀɴᴅ sᴛʏʟɪsʜ
 
-[ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ](t.me/PLUS_MUSIC_BOT?startgroup=new)
+✨  [ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ](t.me/PLUS_MUSIC_BOT?startgroup=new)
 
 **""",
     reply_markup=InlineKeyboardMarkup(
