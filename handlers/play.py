@@ -171,19 +171,19 @@ async def play(_, message: Message):
            [
                 [
                     InlineKeyboardButton(
-                            text="• ᴄʜᴀɴɴᴇʟ •",
+                            text="•ᴄʜᴀɴɴᴇʟ•",
                             url=f"https://t.me/Broken_Heart_72"),
 
                     InlineKeyboardButton(
-                            text="♥️ ᴏᴡɴᴇʀ ♥️",
+                            text="•ᴏᴡɴᴇʀ•",
                             url=f"https://t.me/OFFICIALHACKERERA"),
 
                     InlineKeyboardButton(
-                            text="• sᴜᴘᴘᴏʀᴛ •",
+                            text="•sᴜᴘᴘᴏʀᴛ•",
                             url=f"https://t.me/HEPPYLIFI")
                ],
                [     InlineKeyboardButton(
-                            text="📍 String Session 📍",
+                            text="📍String Session📍",
                             url=f"https://t.me/ULTRASTRINGBOT")
 
                ],
@@ -230,7 +230,7 @@ async def play(_, message: Message):
                             url=f"https://t.me/Broken_Heart_72"),
 
                             InlineKeyboardButton(
-                            text="♥️ ᴏᴡɴᴇʀ ♥️",
+                            text="•ᴏᴡɴᴇʀ•",
                             url=f"https://t.me/OFFICIALHACKERERA"),
 
                     InlineKeyboardButton(
@@ -238,7 +238,7 @@ async def play(_, message: Message):
                             url=f"https://t.me/HEPPYLIFI")
                ],
                [    InlineKeyboardButton(
-                            text="📍 String Session 📍",
+                            text="📍String Session📍",
                             url=f"https://t.me/ULTRASTRINGBOT")
                ],
                [
@@ -258,19 +258,19 @@ async def play(_, message: Message):
            [
                 [
                     InlineKeyboardButton(
-                            text="• ᴄʜᴀɴɴᴇʟ •",
+                            text="•ᴄʜᴀɴɴᴇʟ•",
                             url=f"https://t.me/Broken_Heart_72"),
 
                      InlineKeyboardButton(
-                            text="♥️ ᴏᴡɴᴇʀ ♥️",
+                            text="•ᴏᴡɴᴇʀ•",
                             url=f"https://t.me/OFFICIALHACKERERA"),
                             
                     InlineKeyboardButton(
-                            text="• sᴜᴘᴘᴏʀᴛ •",
+                            text="•sᴜᴘᴘᴏʀᴛ•",
                             url=f"https://t.me/HEPPYLIFI")
                ],
                [     InlineKeyboardButton(
-                            text="📍 String Session 📍",
+                            text="📍String Session📍",
                             url=f"https://t.me/ULTRASTRINGBOT")
                ],
                [
@@ -328,19 +328,19 @@ async def play(_, message: Message):
            [
                 [
                     InlineKeyboardButton(
-                            text="• ᴄʜᴀɴɴᴇʟ •",
+                            text="•ᴄʜᴀɴɴᴇʟ•",
                             url=f"https://t.me/Broken_Heart_72"),
 
                     InlineKeyboardButton(
-                            text="♥️ ᴏᴡɴᴇʀ ♥️",
+                            text="•ᴏᴡɴᴇʀ•",
                             url=f"https://t.me/OFFICIALHACKERERA"),                
 
                     InlineKeyboardButton(
-                            text="• sᴜᴘᴘᴏʀᴛ •",
+                            text="•sᴜᴘᴘᴏʀᴛ•",
                             url=f"https://t.me/HEPPYLIFI")
                ],
                [     InlineKeyboardButton(
-                            text="📍 String Session 📍",
+                            text="📍String Session📍",
                             url=f"https://t.me/ULTRASTRINGBOT")
                ],
                [
