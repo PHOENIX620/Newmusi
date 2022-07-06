@@ -178,7 +178,7 @@ async def play(_, message: Message):
                             text="• sᴜᴘᴘᴏʀᴛ •",
                             url=f"https://t.me/HEPPYLIFI")
                ],
-               ]     InlineKeyboardButton(
+               [     InlineKeyboardButton(
                             text="• String Session •",
                             url=f"https://t.me/ULTRASTRINGBOT")
 
@@ -227,7 +227,7 @@ async def play(_, message: Message):
                             text="• sᴜᴘᴘᴏʀᴛ •",
                             url=f"https://t.me/HEPPYLIFI")
                ],
-               ]     InlineKeyboardButton(
+               [    InlineKeyboardButton(
                             text="• String Session •",
                             url=f"https://t.me/ULTRASTRINGBOT")
 
@@ -254,7 +254,7 @@ async def play(_, message: Message):
                             text="• sᴜᴘᴘᴏʀᴛ •",
                             url=f"https://t.me/HEPPYLIFI")
                ],
-               ]     InlineKeyboardButton(
+               [     InlineKeyboardButton(
                             text="• String Session •",
                             url=f"https://t.me/ULTRASTRINGBOT")
 
@@ -319,7 +319,7 @@ async def play(_, message: Message):
                             text="• sᴜᴘᴘᴏʀᴛ •",
                             url=f"https://t.me/HEPPYLIFI")
                ],
-               ]     InlineKeyboardButton(
+               [     InlineKeyboardButton(
                             text="• String Session •",
                             url=f"https://t.me/ULTRASTRINGBOT")
 
