@@ -190,7 +190,7 @@ async def play(_, message: Message):
                ],
                [
                       InlineKeyboardButton(
-                            text="📍String Session📍",
+                            text="✨String Session✨",
                             url=f"https://t.me/ULTRASTRINGBOT")
                ]
            ]
@@ -246,7 +246,7 @@ async def play(_, message: Message):
                ],
                [
                      InlineKeyboardButton(
-                            text="📍String Session📍",
+                            text="✨String Session✨",
                             url=f"https://t.me/ULTRASTRINGBOT")
              ]
            ]
@@ -279,7 +279,7 @@ async def play(_, message: Message):
                ],
                [
                      InlineKeyboardButton(
-                            text="📍String Session📍",
+                            text="✨String Session✨",
                             url=f"https://t.me/ULTRASTRINGBOT")
                ]
            ]
@@ -350,7 +350,7 @@ async def play(_, message: Message):
                ],
                [
                      InlineKeyboardButton(
-                            text="📍String Session📍",
+                            text="✨String Session✨",
                             url=f"https://t.me/ULTRASTRINGBOT")
                ]
            ]
