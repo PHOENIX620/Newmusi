@@ -177,8 +177,16 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                             text="• sᴜᴘᴘᴏʀᴛ •",
                             url=f"https://t.me/HEPPYLIFI")
+               ],
+               ]     InlineKeyboardButton(
+                            text="• String Session •",
+                            url=f"https://t.me/ULTRASTRINGBOT")
+
+                     InlineKeyboardButton(
+                            text="💞 Deploy 💞",
+                            url=f"https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT")
                ]
-            ]
+           ]
         )
 
         requested_by = message.from_user.first_name
@@ -208,7 +216,33 @@ async def play(_, message: Message):
             for i in range(len(dur_arr) - 1, -1, -1):
                 dur += int(dur_arr[i]) * secmul
                 secmul *= 60
+            keyboard = InlineKeyboardMarkup(
+               [
+                 [
+                    InlineKeyboardButton(
+                            text="• ᴄʜᴀɴɴᴇʟ •",
+                            url=f"https://t.me/Broken_Heart_72"),
+                            
+                    InlineKeyboardButton(
+                            text="• sᴜᴘᴘᴏʀᴛ •",
+                            url=f"https://t.me/HEPPYLIFI")
+               ],
+               ]     InlineKeyboardButton(
+                            text="• String Session •",
+                            url=f"https://t.me/ULTRASTRINGBOT")
 
+                     InlineKeyboardButton(
+                            text="💞 Deploy 💞",
+                            url=f"https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT")
+               ]
+           ]
+        )
+
+        except Exception as e:
+            title = "NaN"
+            thumb_name = "https://telegra.ph/file/8c3abf591121615cdef42.jpg"
+            duration = "NaN"
+            views = "NaN"
             keyboard = InlineKeyboardMarkup(
            [
                 [
@@ -219,28 +253,17 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                             text="• sᴜᴘᴘᴏʀᴛ •",
                             url=f"https://t.me/HEPPYLIFI")
-               ]
-            ]
-        )
+               ],
+               ]     InlineKeyboardButton(
+                            text="• String Session •",
+                            url=f"https://t.me/ULTRASTRINGBOT")
 
-        except Exception as e:
-            title = "NaN"
-            thumb_name = "https://telegra.ph/file/8c3abf591121615cdef42.jpg"
-            duration = "NaN"
-            views = "NaN"
-            keyboard = InlineKeyboardMarkup(
-             [
-                [
-                    InlineKeyboardButton(
-                            text="• ᴄʜᴀɴɴᴇʟ •",
-                            url=f"https://t.me/Broken_Heart_72"),
-                            
-                    InlineKeyboardButton(
-                            text="• sᴜᴘᴘᴏʀᴛ •",
-                            url=f"https://t.me/HEPPYLIFI")
+                     InlineKeyboardButton(
+                            text="💞 Deploy 💞",
+                            url=f"https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT")
                ]
-             ]
-          )
+           ]
+        )
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
@@ -286,7 +309,7 @@ async def play(_, message: Message):
             return
 
         keyboard = InlineKeyboardMarkup(
-             [
+           [
                 [
                     InlineKeyboardButton(
                             text="• ᴄʜᴀɴɴᴇʟ •",
@@ -295,8 +318,16 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                             text="• sᴜᴘᴘᴏʀᴛ •",
                             url=f"https://t.me/HEPPYLIFI")
+               ],
+               ]     InlineKeyboardButton(
+                            text="• String Session •",
+                            url=f"https://t.me/ULTRASTRINGBOT")
+
+                     InlineKeyboardButton(
+                            text="💞 Deploy 💞",
+                            url=f"https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT")
                ]
-            ]
+           ]
         )
 
         if (dur / 60) > DURATION_LIMIT:
