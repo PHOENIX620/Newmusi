@@ -174,9 +174,7 @@ async def play(_, message: Message):
                             text="•ᴄʜᴀɴɴᴇʟ•",
                             url=f"https://t.me/Broken_Heart_72"),
 
-                    InlineKeyboardButton(
-                            text="•ᴏᴡɴᴇʀ•",
-                            url=f"https://t.me/OFFICIALHACKERERA"),
+                    
 
                     InlineKeyboardButton(
                             text="•sᴜᴘᴘᴏʀᴛ•",
@@ -230,9 +228,7 @@ async def play(_, message: Message):
                             text="• ᴄʜᴀɴɴᴇʟ •",
                             url=f"https://t.me/Broken_Heart_72"),
 
-                            InlineKeyboardButton(
-                            text="•ᴏᴡɴᴇʀ•",
-                            url=f"https://t.me/OFFICIALHACKERERA"),
+                            
 
                     InlineKeyboardButton(
                             text="• sᴜᴘᴘᴏʀᴛ •",
@@ -264,9 +260,7 @@ async def play(_, message: Message):
                             text="•ᴄʜᴀɴɴᴇʟ•",
                             url=f"https://t.me/Broken_Heart_72"),
 
-                     InlineKeyboardButton(
-                            text="•ᴏᴡɴᴇʀ•",
-                            url=f"https://t.me/OFFICIALHACKERERA"),
+                     
                             
                     InlineKeyboardButton(
                             text="•sᴜᴘᴘᴏʀᴛ•",
@@ -335,9 +329,7 @@ async def play(_, message: Message):
                             text="•ᴄʜᴀɴɴᴇʟ•",
                             url=f"https://t.me/Broken_Heart_72"),
 
-                    InlineKeyboardButton(
-                            text="•ᴏᴡɴᴇʀ•",
-                            url=f"https://t.me/OFFICIALHACKERERA"),                
+                                    
 
                     InlineKeyboardButton(
                             text="•sᴜᴘᴘᴏʀᴛ•",
