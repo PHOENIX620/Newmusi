@@ -185,12 +185,8 @@ async def play(_, message: Message):
                         text="💞 Deploy 💞",
                             url=f"https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT")
 
-               ],
-               [
-                      InlineKeyboardButton(
-                            text="✨String Session✨",
-                            url=f"https://t.me/ULTRASTRINGBOT")
                ]
+            
            ]
         )
 
@@ -239,12 +235,8 @@ async def play(_, message: Message):
                         text="💞 Deploy 💞",
                             url=f"https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT")
            
-               ],
-               [
-                     InlineKeyboardButton(
-                            text="✨String Session✨",
-                            url=f"https://t.me/ULTRASTRINGBOT")
-             ]
+               ]
+               
            ]
         )
 
@@ -270,12 +262,8 @@ async def play(_, message: Message):
                  InlineKeyboardButton(
                         text="💞 Deploy 💞",
                             url=f"https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT")
-               ],
-               [
-                     InlineKeyboardButton(
-                            text="✨String Session✨",
-                            url=f"https://t.me/ULTRASTRINGBOT")
                ]
+               
            ]
         )
 
@@ -339,12 +327,8 @@ async def play(_, message: Message):
                   InlineKeyboardButton(
                         text="💞 Deploy 💞",
                             url=f"https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT")
-               ],
-               [
-                     InlineKeyboardButton(
-                            text="✨String Session✨",
-                            url=f"https://t.me/ULTRASTRINGBOT")
                ]
+               
            ]
         )
 
