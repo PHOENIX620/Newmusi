@@ -52,18 +52,18 @@ async def start_(client: Client, message: Message):
 
 @Client.on_message(command(["alive"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
-    await message.reply_video(
-        video=f"https://te.legra.ph/file/b4cf9fec53289e0957cdb.mp4",
+    await message.reply_photo(
+        photo=f"https://te.legra.ph/file/b4cf9fec53289e0957cdb.mp4",
         caption=f"""**ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴀʙᴏᴜᴛ ᴍᴇ ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/OFFICIALHACKERERA)**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                            text="• ᴄʜᴀɴɴᴇʟ •",
+                            text="Support",
                             url=f"https://t.me/Broken_Heart_72"),
                             
                     InlineKeyboardButton(
-                            text="• sᴜᴘᴘᴏʀᴛ •",
+                            text="Support",
                             url=f"https://t.me/HEPPYLIFI")
                 ]
             ]
