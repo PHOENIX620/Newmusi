@@ -322,7 +322,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="https://te.legra.ph/file/f509648f758b0e47f53a1.jpg",
-            caption="**** ᴏᴡɴᴇʀ [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\nDeploy [click](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT)**".format(position),
+            caption="**** ᴏᴡɴᴇʀ : [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n ᴅᴇᴘʟᴏʏ : [click](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT)**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -339,7 +339,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="https://te.legra.ph/file/f51213e21f6e3be68bef9.jpg",
             reply_markup=keyboard,
-            caption="** ᴏᴡɴᴇʀ [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\nDeploy [click](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT)**".format(
+            caption="** ᴏᴡɴᴇʀ : [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n ᴅᴇᴘʟᴏʏ : [click](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT)**".format(
         message.chat.title, results[i]['title'], results[i]['duration'], results[i]['views']
         ), )
 
