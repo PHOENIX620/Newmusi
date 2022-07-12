@@ -53,7 +53,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["alive"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/b4cf9fec53289e0957cdb.mp4",
+        photo=f"https://te.legra.ph/file/4f730af88f1d7ec343386.jpg",
         caption=f"""**ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴀʙᴏᴜᴛ ᴍᴇ ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/OFFICIALHACKERERA)**""",
         reply_markup=InlineKeyboardMarkup(
             [
