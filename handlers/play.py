@@ -321,7 +321,7 @@ async def play(_, message: Message):
     if int(chat_id) in ACTV_CALLS:
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
-            photo="https://te.legra.ph/file/f509648f758b0e47f53a1.jpg",
+            photo="https://te.legra.ph/file/4f730af88f1d7ec343386.jpg",
             caption="**** ᴏᴡɴᴇʀ : [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n ᴅᴇᴘʟᴏʏ : [click](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT)**".format(position),
             reply_markup=keyboard,
         )
