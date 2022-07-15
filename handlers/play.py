@@ -295,8 +295,15 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="Channel",
-                            url=f"https://t.me/Broken_Heart_72"),                                                       
-               ]
+                            url=f"https://t.me/Broken_Heart_72"),              
+                                         
+                    InlineKeyboardButton(
+                            text="Support",
+                            url=f"https://t.me/HEPPYLIFI")
+
+ 
+
+              ]
            ]
         )
 
@@ -316,7 +323,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="https://te.legra.ph/file/d39d9e462aa1571355b6f.jpg",
-            caption="**╭───────────\n┣❤️‍🔥 Channel : [ᴄʜᴀɴɴᴇʟ](https://t.me/Broken_Heart_72)\n┣❤️‍🔥 Support : [sᴜᴘᴘᴏʀᴛ](https://t.me/HEPPYLIFI)\n┣❤️‍🔥 Owner : [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n┣❤️‍🔥 Source code : [click](https://t.me/Broken_Heart_72/10)\n┣❤️‍🔥 Diploy : [click](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT)\n╰────────────**".format(position),
+            caption="**╭───────────\n┣❤️‍🔥 Channel : [ᴄʜᴀɴɴᴇʟ](https://t.me/Broken_Heart_72)\n┣❤️‍🔥 Support : [sᴜᴘᴘᴏʀᴛ](https://t.me/HEPPYLIFI)\n┣❤️‍🔥 Owner  : [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n┣❤️‍🔥 Source code : [click](https://t.me/Broken_Heart_72/10)\n┣❤️‍🔥 Diploy : [click](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT)\n╰────────────**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -333,7 +340,7 @@ async def play(_, message: Message):
         await message.reply_video(
             video="https://te.legra.ph/file/f3be18d27e42202f416c6.mp4",
             reply_markup=keyboard,
-            caption="**╭───────────\n┣❤️‍🔥 Channel : [ᴄʜᴀɴɴᴇʟ](https://t.me/Broken_Heart_72)\n┣❤️‍🔥 Support : [sᴜᴘᴘᴏʀᴛ](https://t.me/HEPPYLIFI)\n┣❤️‍🔥 Owner : [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n┣❤️‍🔥 Source code : [click](https://t.me/Broken_Heart_72/10)\n┣❤️‍🔥 Diploy : [click](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT)\n╰────────────**".format(           
+            caption="**╭───────────\n┣❤️‍🔥 Channel : [ᴄʜᴀɴɴᴇʟ](https://t.me/Broken_Heart_72)\n┣❤️‍🔥 Support : [sᴜᴘᴘᴏʀᴛ](https://t.me/HEPPYLIFI)\n┣❤️‍🔥 Owner  : [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n┣❤️‍🔥 Source code : [click](https://t.me/Broken_Heart_72/10)\n┣❤️‍🔥 Diploy : [click](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT)\n╰────────────**".format(           
         message.chat.title, results[i]['title'], results[i]['duration'], results[i]['views']
         ), )
 
