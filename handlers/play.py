@@ -336,8 +336,8 @@ async def play(_, message: Message):
                 stream_type=StreamType().local_stream,
             )
 
-        await message.reply_photo(
-            photo="https://te.legra.ph/file/d39d9e462aa1571355b6f.jpg",
+        await message.reply_video(
+            video="https://te.legra.ph/file/f3be18d27e42202f416c6.mp4",
             reply_markup=keyboard,
             caption="**╭───────────\n┣❤️‍🔥 Channel  : [ᴄʜᴀɴɴᴇʟ](https://t.me/Broken_Heart_72)\n┣❤️‍🔥 Support  : [sᴜᴘᴘᴏʀᴛ](https://t.me/HEPPYLIFI)\n┣❤️‍🔥 Owner    : [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n╰────────────**"
             .format(
