@@ -321,8 +321,9 @@ async def play(_, message: Message):
     if int(chat_id) in ACTV_CALLS:
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
-            photo="https://te.legra.ph/file/4f730af88f1d7ec343386.jpg",
-            caption="**** ᴏᴡɴᴇʀ : [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n ᴅᴇᴘʟᴏʏ : [click](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT)**".format(position),
+            photo="https://te.legra.ph/file/336ba92dbe28f26baf4c4.jpg",
+           caption="**╭───────────\n┣❤️‍🔥 Channel : [ᴄʜᴀɴɴᴇʟ](https://t.me/Broken_Heart_72)\n┣❤️‍🔥 Support : [sᴜᴘᴘᴏʀᴛ](https://t.me/HEPPYLIFI)\n┣❤️‍🔥 Owner : [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n┣❤️‍🔥 Source code : [click](https://github.com/OFFICIALHACKERERA/PLUS-MUSIC-BOT)\n┣❤️‍🔥 Diploy : [click](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT)\n
+╰────────────**".format(position),
             reply_markup=keyboard,
         )
     else:
