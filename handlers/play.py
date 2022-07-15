@@ -339,8 +339,7 @@ async def play(_, message: Message):
         await message.reply_video(
             video="https://te.legra.ph/file/f3be18d27e42202f416c6.mp4",
             reply_markup=keyboard,
-            caption="**╭───────────\n┣❤️‍🔥 Channel : [ᴄʜᴀɴɴᴇʟ](https://t.me/Broken_Heart_72)\n┣❤️‍🔥 Support : [sᴜᴘᴘᴏʀᴛ](https://t.me/HEPPYLIFI)\n┣❤️‍🔥 Owner : [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n┣❤️‍🔥 Source code : [click](https://github.com/OFFICIALHACKERERA/PLUS-MUSIC-BOT)\n┣❤️‍🔥 Diploy : [click](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT)\n╰────────────**".format(
-            
+            caption="**╭───────────\n┣❤️‍🔥 Channel : [ᴄʜᴀɴɴᴇʟ](https://t.me/Broken_Heart_72)\n┣❤️‍🔥 Support : [sᴜᴘᴘᴏʀᴛ](https://t.me/HEPPYLIFI)\n┣❤️‍🔥 Owner : [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n┣❤️‍🔥 Source code : [click](https://github.com/OFFICIALHACKERERA/PLUS-MUSIC-BOT)\n┣❤️‍🔥 Diploy : [click](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT)\n╰────────────**".format(           
         message.chat.title, results[i]['title'], results[i]['duration'], results[i]['views']
         ), )
 
