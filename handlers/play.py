@@ -339,7 +339,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="https://te.legra.ph/file/bd44461832cc3ee094547.jpg",
             reply_markup=keyboard,
-            caption="**╭───────────\n┣❤️‍🔥 Channel  : [ᴄʜᴀɴɴᴇʟ](https://t.me/Broken_Heart_72)\n┣❤️‍🔥 Support  : [sᴜᴘᴘᴏʀᴛ](https://t.me/HEPPYLIFI)\n┣❤️‍🔥 Owner    : [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n╰────────────\n**"
+            caption="**╭───────────\n┣❤️‍🔥 Channel  : [ᴄʜᴀɴɴᴇʟ](https://t.me/Broken_Heart_72)\n┣❤️‍🔥 Support  : [sᴜᴘᴘᴏʀᴛ](https://t.me/HEPPYLIFI)\n┣❤️‍🔥 Owner    : [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n╰────────────**"
             .format(
         message.chat.title, results[i]['title'], results[i]['duration'], results[i]['views']
         ), )
@@ -348,11 +348,3 @@ async def play(_, message: Message):
     return await lel.delete()
 
 
-
-
-
-
-
-
-
-╰────────────
