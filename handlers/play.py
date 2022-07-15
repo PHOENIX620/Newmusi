@@ -337,7 +337,7 @@ async def play(_, message: Message):
             )
 
         await message.reply_photo(
-            photo="https://te.legra.ph/file/bd44461832cc3ee094547.jpg",
+            photo="https://te.legra.ph/file/d39d9e462aa1571355b6f.jpg",
             reply_markup=keyboard,
             caption="**╭───────────\n┣❤️‍🔥 Channel  : [ᴄʜᴀɴɴᴇʟ](https://t.me/Broken_Heart_72)\n┣❤️‍🔥 Support  : [sᴜᴘᴘᴏʀᴛ](https://t.me/HEPPYLIFI)\n┣❤️‍🔥 Owner    : [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n╰────────────**"
             .format(
