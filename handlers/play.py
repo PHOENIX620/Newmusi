@@ -337,11 +337,22 @@ async def play(_, message: Message):
             )
 
         await message.reply_photo(
-            photo="https://te.legra.ph/file/f51213e21f6e3be68bef9.jpg",
+            photo="https://te.legra.ph/file/bd44461832cc3ee094547.jpg",
             reply_markup=keyboard,
-            caption="** ᴏᴡɴᴇʀ : [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n ᴅᴇᴘʟᴏʏ : [click](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT)**".format(
+            caption="**╭───────────\n┣❤️‍🔥 Channel  : [ᴄʜᴀɴɴᴇʟ](https://t.me/Broken_Heart_72)\n┣❤️‍🔥 Support  : [sᴜᴘᴘᴏʀᴛ](https://t.me/HEPPYLIFI)\n┣❤️‍🔥 Owner    : [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n╰────────────\n**"
+            .format(
         message.chat.title, results[i]['title'], results[i]['duration'], results[i]['views']
         ), )
 
     os.remove("final.png")
     return await lel.delete()
+
+
+
+
+
+
+
+
+
+╰────────────
