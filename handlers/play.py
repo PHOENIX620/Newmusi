@@ -322,7 +322,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="https://te.legra.ph/file/336ba92dbe28f26baf4c4.jpg",
-            caption="**** OFFICIAL HKR MUSIC BOT 🎵🎶 ** {}**".format(position),
+            caption="**❤️‍🔥**".format(position),
             reply_markup=keyboard,
         )
     else:
