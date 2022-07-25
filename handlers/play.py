@@ -300,9 +300,6 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                             text="Support",
                             url=f"https://t.me/HEPPYLIFI")
-
- 
-
               ]
            ]
         )
@@ -323,7 +320,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="https://telegra.ph/file/16509c2c9128f06953d84.jpg",
-            caption="**╔══════════════════╗\n╠•➳ ʙᴇsᴛ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ\n╠•➳ ᴇᴀsʏ ᴅᴇᴘʟᴏʏ\n╠•➳ ʙᴀsᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ\n╠•➳ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛs\n╠•➳ ʙᴇᴡ ғᴇᴀᴛᴜʀᴇ\n╠•➳ ᴍᴀᴅᴇ ʙʏ [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n╠•➳ ᴀʟᴡᴀʏs ᴡɪʟʟ ᴜᴘᴅᴀᴛᴇ\n╠•➳ ʙᴇsᴛ ᴀɴᴅ sᴇᴄᴜʀᴇ\n╠•➳ ғᴀsᴛ sᴍᴏᴏᴛʜ ᴀɴᴅ sᴛʏʟɪsʜ\n╠•➳ REPO [repo](https://t.me/Broken_Heart_72/10)\n╚══════════════════╝**".format(position),
+            caption="**╔══════════════════╗\n╠•➳➠ Mαdє By [σғғιcιαℓ нαcкεя](https://t.me/OFFICIALHACKERERA)\n╠•➳➠ Sσurcє Cσdє [repo](https://t.me/OFFICIALHACKERERA)\n╚══════════════════╝**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -340,7 +337,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="https://telegra.ph/file/96b18c5757812de3b3b25.jpg",
             reply_markup=keyboard,
-            caption="**╔══════════════════╗\n╠•➳ ʙᴇsᴛ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ\n╠•➳ ᴇᴀsʏ ᴅᴇᴘʟᴏʏ\n╠•➳ ʙᴀsᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ\n╠•➳ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛs\n╠•➳ ʙᴇᴡ ғᴇᴀᴛᴜʀᴇ\n╠•➳ ᴍᴀᴅᴇ ʙʏ [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n╠•➳ ᴀʟᴡᴀʏs ᴡɪʟʟ ᴜᴘᴅᴀᴛᴇ\n╠•➳ ʙᴇsᴛ ᴀɴᴅ sᴇᴄᴜʀᴇ\n╠•➳ ғᴀsᴛ sᴍᴏᴏᴛʜ ᴀɴᴅ sᴛʏʟɪsʜ\n╠•➳ REPO [repo](https://t.me/Broken_Heart_72/10)\n╚══════════════════╝**".format(           
+            caption="**╔══════════════════╗\n╠•➳➠ Mαdє By [σғғιcιαℓ нαcкεя](https://t.me/OFFICIALHACKERERA)\n╠•➳➠ Sσurcє Cσdє [repo](https://t.me/OFFICIALHACKERERA)\n╚══════════════════╝**".format(           
         message.chat.title, results[i]['title'], results[i]['duration'], results[i]['views']
         ), )
 
