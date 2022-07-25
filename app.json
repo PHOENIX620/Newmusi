@@ -19,16 +19,20 @@
       "required": false,
       "value": ""
     },
-    "MASTER_USERNAME": {
-      "description": "Write Ur Username(Without @ Or With @).",
-      "required": true,
-    },
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
       "required": true
     },
     "API_HASH": {
       "description": "App hash from my.telegram.org/apps",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "List of user IDs counted as admin everywhere (separated by space).",
+      "required": true
+    },
+    "MASTER_USERNAME": {
+      "description": "Write Ur Username(Without @ Or With @).",
       "required": true
     },
     "DURATION_LIMIT": {
