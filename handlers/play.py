@@ -260,7 +260,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "» ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ sᴇᴀʀᴄʜ️**"
             )
-        await lel.edit("» ᴘʀᴏᴄᴇssɪɴɢ​... ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ")
+        await lel.edit("Featching Details...")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -322,8 +322,8 @@ async def play(_, message: Message):
     if int(chat_id) in ACTV_CALLS:
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
-            photo="https://te.legra.ph/file/d39d9e462aa1571355b6f.jpg",
-            caption="**╭───────────\n┣❤️‍🔥 Owner  : [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n┣❤️‍🔥 Source code : [click](https://t.me/Broken_Heart_72/10)\n┣❤️‍🔥 Diploy : [click](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT)\n╰────────────**".format(position),
+            photo="https://telegra.ph/file/16509c2c9128f06953d84.jpg",
+            caption="**╔══════════════════╗\n╠•➳ ʙᴇsᴛ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ\n╠•➳ ᴇᴀsʏ ᴅᴇᴘʟᴏʏ\n╠•➳ ʙᴀsᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ\n╠•➳ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛs\n╠•➳ ʙᴇᴡ ғᴇᴀᴛᴜʀᴇ\n╠•➳ ᴍᴀᴅᴇ ʙʏ [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n╠•➳ ᴀʟᴡᴀʏs ᴡɪʟʟ ᴜᴘᴅᴀᴛᴇ\n╠•➳ ʙᴇsᴛ ᴀɴᴅ sᴇᴄᴜʀᴇ\n╠•➳ ғᴀsᴛ sᴍᴏᴏᴛʜ ᴀɴᴅ sᴛʏʟɪsʜ\n╠•➳ REPO [repo](https://t.me/Broken_Heart_72/10)\n╚══════════════════╝**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -337,10 +337,10 @@ async def play(_, message: Message):
                 stream_type=StreamType().local_stream,
             )
 
-        await message.reply_video(
-            video="https://te.legra.ph/file/f3be18d27e42202f416c6.mp4",
+        await message.reply_photo(
+            photo="https://telegra.ph/file/96b18c5757812de3b3b25.jpg",
             reply_markup=keyboard,
-            caption="**╭───────────\n┣❤️‍🔥 Owner  : [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n┣❤️‍🔥 Source code : [click](https://t.me/Broken_Heart_72/10)\n┣❤️‍🔥 Diploy : [click](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT&template=https%3A%2F%2Fgithub.com%2FOFFICIALHACKERERA%2FPLUS-MUSIC-BOT)\n╰────────────**".format(           
+            caption="**╔══════════════════╗\n╠•➳ ʙᴇsᴛ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ\n╠•➳ ᴇᴀsʏ ᴅᴇᴘʟᴏʏ\n╠•➳ ʙᴀsᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ\n╠•➳ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛs\n╠•➳ ʙᴇᴡ ғᴇᴀᴛᴜʀᴇ\n╠•➳ ᴍᴀᴅᴇ ʙʏ [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n╠•➳ ᴀʟᴡᴀʏs ᴡɪʟʟ ᴜᴘᴅᴀᴛᴇ\n╠•➳ ʙᴇsᴛ ᴀɴᴅ sᴇᴄᴜʀᴇ\n╠•➳ ғᴀsᴛ sᴍᴏᴏᴛʜ ᴀɴᴅ sᴛʏʟɪsʜ\n╠•➳ REPO [repo](https://t.me/Broken_Heart_72/10)\n╚══════════════════╝**".format(           
         message.chat.title, results[i]['title'], results[i]['duration'], results[i]['views']
         ), )
 
