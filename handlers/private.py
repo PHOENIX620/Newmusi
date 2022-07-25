@@ -14,7 +14,7 @@ if "@" in master_user:
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/28146e281d006a2bb57bd.jpg",
+        photo=f"https://telegra.ph/file/5754a1c5b7f00258f3f7c.jpg",
         caption=f"""**✨  ʙᴇsᴛ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ
 💫  ᴇᴀsʏ ᴅᴇᴘʟᴏʏ
 💫  ʙᴀsᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ
