@@ -1,9 +1,8 @@
 {
-  "name": "plus Music Bot",
-  "description": "Best Music bot to play songs in your Telegram's Group Voice Chat.",
+  "name": "Plus Music Bot",
+  "description": "Open-Source & Best Music bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/OFFICIALHACKERERA/PLUS-MUSIC-BOT",
-  "logo": "https://te.legra.ph/file/f509648f758b0e47f53a1.jpg",
+  "repository": "https://github.com/KRITIK8766/VC-MUSIC-BOT",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
