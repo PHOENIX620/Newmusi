@@ -319,8 +319,8 @@ async def play(_, message: Message):
     if int(chat_id) in ACTV_CALLS:
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
-            photo="https://telegra.ph/file/16509c2c9128f06953d84.jpg",
-            caption="**╔══════════════════╗\n╠•➳➠ Mαdє By [σғғιcιαℓ нαcкεя](https://t.me/OFFICIALHACKERERA)\n╠•➳➠ Sσurcє Cσdє [repo](https://t.me/Broken_Heart_72/10)\n╚══════════════════╝**".format(position),
+            photo="https://telegra.ph/file/5754a1c5b7f00258f3f7c.jpg",
+            caption="**╔═════════════════════╗\n╠•➳ Mαdє By [σғғιcιαℓ нαcкεя](https://t.me/OFFICIALHACKERERA)\n╠•➳ Sσurcє Cσdє [repo](https://t.me/Broken_Heart_72/10)\n╚═════════════════════╝**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -337,7 +337,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="https://telegra.ph/file/96b18c5757812de3b3b25.jpg",
             reply_markup=keyboard,
-            caption="**╔══════════════════╗\n╠•➳➠ Mαdє By [σғғιcιαℓ нαcкεя](https://t.me/OFFICIALHACKERERA)\n╠•➳➠ Sσurcє Cσdє [repo](https://t.me/Broken_Heart_72/10)\n╚══════════════════╝**".format(           
+            caption="**╔═════════════════════╗\n╠•➳ Mαdє By [σғғιcιαℓ нαcкεя](https://t.me/OFFICIALHACKERERA)\n╠•➳ Sσurcє Cσdє [repo](https://t.me/Broken_Heart_72/10)\n╚═════════════════════╝**".format(           
         message.chat.title, results[i]['title'], results[i]['duration'], results[i]['views']
         ), )
 
