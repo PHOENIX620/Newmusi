@@ -14,6 +14,11 @@
       "description": "A bot token from @BotFather",
       "required": true
     },
+    "BOT_NAME": {
+      "description": "Your MusicPlayer Bot username without @.",
+      "required": false,
+      "value": ""
+    },
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
       "required": true
