@@ -19,6 +19,10 @@
       "required": false,
       "value": ""
     },
+    "MASTER_USERNAME": {
+      "description": "Write Ur Username(Without @ Or With @).",
+      "required": true,
+    },
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
       "required": true
