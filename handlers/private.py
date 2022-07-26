@@ -59,25 +59,32 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="ULTRA X MUSIC",
+                            text="💥 ULTRA X MUSIC 💥",
                             url=f"https://github.com/OFFICIALHACKERERA/ULTRA-X-MUSIC-BOT"),
                             
                     InlineKeyboardButton(
-                            text="USERBOT REPO",
+                            text="💞 USERBOT REPO 💝",
                             url=f"https://github.com/OFFICIALHACKERERA/PLUS-MUSIC-BOT")
                 ],
                 [
  
                      InlineKeyboardButton(
-                            text="Channel",
+                            text="💫 Channel 💫",
                             url=f"https://t.me/Broken_Heart_72"),
                             
                     InlineKeyboardButton(
-                            text="Support",
+                            text="💫 Support 💫",
                             url=f"https://t.me/HEPPYLIFI")
  
 
-               ]
+               ],
+               [
+                
+                    InlineKeyboardButton(
+                        "💥 All Repo 💞", url=f"https://t.me/Broken_Heart_72")
+
+
+              ]
            ]
         ),
     )
