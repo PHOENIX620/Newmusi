@@ -50,22 +50,34 @@ async def start_(client: Client, message: Message):
 
 
 
-@Client.on_message(command(["alive"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/4f730af88f1d7ec343386.jpg",
+        photo=f"https://telegra.ph/file/5754a1c5b7f00258f3f7c.jpg",
         caption=f"""**ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴀʙᴏᴜᴛ ᴍᴇ ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/OFFICIALHACKERERA)**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
+                            text="ULTRA X MUSIC",
+                            url=f"https://github.com/OFFICIALHACKERERA/ULTRA-X-MUSIC-BOT"),
+                            
+                    InlineKeyboardButton(
+                            text="USERBOT REPO",
+                            url=f"https://github.com/OFFICIALHACKERERA/PLUS-MUSIC-BOT")
+                ],
+                [
+ 
+                     InlineKeyboardButton(
                             text="Channel",
                             url=f"https://t.me/Broken_Heart_72"),
                             
                     InlineKeyboardButton(
                             text="Support",
                             url=f"https://t.me/HEPPYLIFI")
-                ]
-            ]
+ 
+
+               ]
+           ]
         ),
     )
