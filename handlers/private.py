@@ -84,7 +84,13 @@ async def help(client: Client, message: Message):
                         "💥 All Repo 💞", url=f"https://t.me/Broken_Heart_72")
 
 
-              ]
+              ],
+              [
+
+                   InlineKeyboardButton(
+                        "♥️ Owner ♥️", url=f"https://t.me/OFFICIALHACKERERA")
+
+             ]
            ]
         ),
     )
