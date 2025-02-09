@@ -31,4 +31,4 @@ jobs:
 
       - name: Run the bot
         run: |
-          python3 main.py  # Run your bot script
+          python3 str.py  # Run your bot script
